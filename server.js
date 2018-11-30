@@ -31,7 +31,7 @@ hbs.registerHelper('getCurrentYear', ()=>{
 app.get('/', (req, res)=>{
     res.render('home.hbs', { 
         pageTitle: 'Home Page',
-        welcomeMessage: 'Halo kurwa'
+        welcomeMessage: 'This is home page, probably i will not update it'
     });
 });
 app.get('/about', (req, res)=>{
